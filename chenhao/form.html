@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css">
+</head>
+
+<body>
+  <br>
+  <form class="form-horizontal" role="form">
+    <div class="form-group form-row">
+      <label for="bianhao" class="col-md-2 control-label">课程编号</label>
+      <div class="col-md-3">
+        <input type="text" class="form-control" id="bianhao" placeholder="" disabled=""> </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="classname" class="col-md-2 control-label">课程名称</label>
+      <div class="col-md-3">
+        <input type="text" class="form-control" id="classname" placeholder=""> </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="xuefen" class="col-md-2  control-label">课程学分</label>
+      <div class="col-md-3">
+        <input type="number" class="form-control" id="xuefen" placeholder=""> </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="xueshi" class="col-md-2  control-label">课程学时</label>
+      <div class="col-md-3">
+        <input type="number" class="form-control" id="xueshi" placeholder=""> </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="wenben" class="col-md-2 control-label">课程简介</label>
+      <div class="col-md-3">
+        <textarea name="" rows="3" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="from-group form-row">
+      <label for="bixiu" class="col-md-2 control-label">必修课</label>
+      <div class="radio">
+        <label for="">
+          <input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1" checked="">是</label>
+      </div>
+      <div class="radio">
+        <label for="">
+          <input type="radio" name="optionsRadios1" id="optionsRadios2" value="option2">否</label>
+      </div>
+    </div>
+    <div class="from-group form-row">
+      <label for="gongzhong" class="col-md-2 control-label">公众课</label>
+      <div class="radio">
+        <label for="">
+          <input type="radio" name="optionsRadios2" id="optionsRadios3" value="option3" checked="">是</label>
+      </div>
+      <div class="radio">
+        <label for="">
+          <input type="radio" name="optionsRadios2" id="optionsRadios4" value="option4">否</label>
+      </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="yuanxi" class="col-md-2  control-label">所属院系</label>
+      <div class="col-md-3">
+        <select name="" class="form-control">
+          <option value="">文学院</option>
+          <option value="">数软学院</option>
+          <option value="">物理学院</option>
+          <option value="">化学院</option>
+          <option value="">医学院</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="zhuanye" class="col-md-2  control-label">所属专业</label>
+      <div class="col-md-3">
+        <select name="" class="form-control">
+          <option value="">软件工程</option>
+          <option value="">计算机科学与技术</option>
+          <option value="">软件外包</option>
+          <option value="">大数据应用</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group form-row">
+      <label for="jiaocai" class="col-md-2 control-label">教材封面</label>
+      <input type="file" id="inputfile"> </div>
+    <button type="submit" class="btn btn-default">提交</button>
+  </form>
+  <br>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made
+    with Pingendo Free&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
